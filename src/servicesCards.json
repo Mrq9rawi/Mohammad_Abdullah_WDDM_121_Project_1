@@ -1,0 +1,20 @@
+[
+	{
+		"id": "1",
+		"icon": "fa-solid fa-code fa-3x",
+		"title": "Web Development",
+		"text": "Take care of the Front End of your website"
+	},
+	{
+		"id": "2",
+		"icon": "fa-solid fa-magnifying-glass fa-3x",
+		"title": "SEO",
+		"text": "Take care of the Front End of your website"
+	},
+	{
+		"id": "3",
+		"icon": "fa-solid fa-universal-access fa-3x",
+		"title": "Web Development",
+		"text": "Take care of the Front End of your website"
+	}
+]

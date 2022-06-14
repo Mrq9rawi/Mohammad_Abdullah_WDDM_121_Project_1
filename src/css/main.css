@@ -1,0 +1,23 @@
+:root {
+	--dark-green: #619b8a;
+	--light-green: #a1c181;
+	--light-orange: #fcca46;
+	--dark-orange: #fe7f2d;
+	--dark-blue: #233d4d;
+	--main-padding: 60px;
+	--section-back-ground: #ececec;
+}
+
+a.nav-link:hover {
+	color: #ddd !important;
+}
+
+main .landing {
+	height: calc(100vh - 72px);
+}
+
+.contact-form-submit {
+	width: fit-content !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
