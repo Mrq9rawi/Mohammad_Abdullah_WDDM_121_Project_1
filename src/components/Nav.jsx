@@ -12,17 +12,27 @@ export default function PageNavBar() {
 					<h1 className="text-light">logo</h1>
 					<Nav className="ms-auto">
 						<Nav.Item>
-							<Link text="light" className="nav-link text-light" to="/">
+							<Link
+								text="light"
+								className="nav-link text-light"
+								to="/Mohammad_Abdullah_WDDM_121_Project_1/"
+							>
 								Home
 							</Link>
 						</Nav.Item>
 						<Nav.Item>
-							<Link className="nav-link text-light" to="/about">
+							<Link
+								className="nav-link text-light"
+								to="/Mohammad_Abdullah_WDDM_121_Project_1/about"
+							>
 								About
 							</Link>
 						</Nav.Item>
 						<Nav.Item>
-							<Link className="nav-link text-light" to="/contact">
+							<Link
+								className="nav-link text-light"
+								to="/Mohammad_Abdullah_WDDM_121_Project_1/contact"
+							>
 								Contact
 							</Link>
 						</Nav.Item>

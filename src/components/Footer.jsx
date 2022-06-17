@@ -22,7 +22,7 @@ export default function PageFooter() {
 					</Link>
 				</Nav.Item>
 			</Nav>
-			<p className="text-center text-light">© 2022 Company, Inc</p>
+			<p className="text-center text-light">© 2022 Web Development</p>
 		</footer>
 	);
 }

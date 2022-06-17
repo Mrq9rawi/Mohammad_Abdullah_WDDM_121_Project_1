@@ -27,31 +27,28 @@ export default function Home() {
 			<section className="slide-show" id="slide-show">
 				<Container>
 					<Carousel>
-						<Carousel.Item interval={1000}>
+						<Carousel.Item interval={2000}>
 							<img className="d-block w-100" src={slideOneImage} alt="First slide" />
 							<Carousel.Caption>
-								<h3>First slide label</h3>
-								<p>text</p>
+								<h3>Fast Support</h3>
 							</Carousel.Caption>
 						</Carousel.Item>
-						<Carousel.Item interval={500}>
+						<Carousel.Item interval={2000}>
 							<img className="d-block w-100" src={slideTwoImage} alt="Second slide" />
 							<Carousel.Caption>
-								<h3>Second slide label</h3>
-								<p>text</p>
+								<h3>Multi Languages</h3>
 							</Carousel.Caption>
 						</Carousel.Item>
-						<Carousel.Item>
+						<Carousel.Item interval={2000}>
 							<img className="d-block w-100" src={slideThreeImage} alt="Third slide" />
 							<Carousel.Caption>
-								<h3>Third slide label</h3>
-								<p>text</p>
+								<h3>Experienced Team</h3>
 							</Carousel.Caption>
 						</Carousel.Item>
 					</Carousel>
 				</Container>
 			</section>
-			<section>
+			<section className="services">
 				<Container>
 					<Row className="flex-wrap">{cardsComp}</Row>
 				</Container>

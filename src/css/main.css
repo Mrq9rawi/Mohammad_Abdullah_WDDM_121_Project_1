@@ -4,13 +4,15 @@
 	--light-orange: #fcca46;
 	--dark-orange: #fe7f2d;
 	--dark-blue: #233d4d;
-	--main-padding: 60px;
+	--main-padding: 100px;
 	--section-back-ground: #ececec;
 }
 
 a.nav-link:hover {
 	color: #ddd !important;
 }
+
+/* Home Page Start */
 
 main .landing {
 	height: calc(100vh - 72px);
@@ -20,4 +22,56 @@ main .landing {
 	width: fit-content !important;
 	margin-left: auto !important;
 	margin-right: auto !important;
+}
+
+main .slide-show {
+	padding-top: var(--main-padding);
+	padding-bottom: var(--main-padding);
+	background-color: var(--section-back-ground);
+}
+
+main .slide-show img {
+	max-width: 1150px;
+	max-height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+main .services {
+	padding-top: var(--main-padding);
+	padding-bottom: var(--main-padding);
+}
+
+main .services .service {
+	height: 100% !important;
+}
+
+/* About Page Start */
+
+main .about {
+	padding-top: var(--main-padding);
+	padding-bottom: var(--main-padding);
+}
+
+main .about .row {
+	row-gap: 20px;
+}
+
+main .about img {
+	border-radius: 10px;
+}
+
+/* Contact Page Start */
+main .contact {
+	padding-top: var(--main-padding);
+	padding-bottom: var(--main-padding);
+}
+
+main .contact textarea {
+	height: 136px !important;
+}
+
+main .contact button {
+	margin-top: 20px;
 }
